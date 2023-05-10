@@ -1,2 +1,2 @@
-# dealerPortalUS
-Dealer Portal focused on the United States
+# admin-dashboard
+An Admin Dashboard project made for TOP, focusing on CSS Grid.
