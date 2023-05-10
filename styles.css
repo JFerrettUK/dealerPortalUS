@@ -19,8 +19,9 @@ html {
 
   .dropdown {
     display: flex !important;
-    justify-content: flex-end;
-    height: 39px;
+    justify-content: space-between;
+    grid-template-columns: 3px 200px;
+    height: 40px;
     background-color: rgb(115 46 133);
   }
 
@@ -100,6 +101,11 @@ html {
 }
 
 .dropdown {
+  color: white;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  font-weight: 600;
   display: none;
 }
 
