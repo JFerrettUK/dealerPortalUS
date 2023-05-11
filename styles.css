@@ -21,8 +21,8 @@ html {
     display: flex !important;
     justify-content: space-between;
     grid-template-columns: 3px 200px;
-    height: 40px;
-    background-color: rgb(115 46 133);
+    height: 25px;
+    background-color: #5d666f;
   }
 
   .card {
