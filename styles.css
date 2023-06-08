@@ -266,6 +266,11 @@ li:hover {
   grid-template-columns: 3fr 1fr;
 }
 
+.firmwareRow {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .projectsCol {
   padding-left: 15px;
   padding-right: 25px;
@@ -512,6 +517,11 @@ li:hover {
   margin-top: 8px;
 }
 
+.firmwareRow {
+  background-color: #e8f0f3;
+  margin-top: 8px;
+}
+
 .orderRow {
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -551,13 +561,37 @@ linebreakCont {
 
 .videoTextCont {
   min-width: 80px;
-  padding: 20px;
-  margin: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 70px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7px;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  color: white;
+  background-color: #0072ce;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e6e6e6;
 }
 
 .videoCont {
@@ -566,9 +600,25 @@ linebreakCont {
 }
 
 .videoText {
+  color: #0072ce;
   display: grid;
   font-weight: bold;
   justify-content: center;
+}
+
+.videoTextTitle {
+  font-size: 19px;
+  color: #0072ce;
+  display: grid;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.firmwareText {
+  display: grid;
+  justify-content: left;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .videoTextDownload {
