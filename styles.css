@@ -13,7 +13,8 @@ html {
   .orderRow,
   .contentRow,
   .mainRow,
-  .pricelistRow {
+  .pricelistRow,
+  .videoRow {
     margin-top: 0px !important;
   }
 
@@ -512,7 +513,8 @@ li:hover {
 .orderRow,
 .contentRow,
 .mainRow,
-.pricelistRow {
+.pricelistRow,
+.videoRow {
   background-color: #e8f0f3;
   margin-top: 8px;
 }
@@ -695,6 +697,7 @@ tr:hover {
   border-radius: 5px; /* Slightly round the corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   background: #d9e2e6;
+  max-width: 900px;
 }
 
 /* Style for even video items (video on the right) */
@@ -717,4 +720,23 @@ tr:hover {
 
 .videoCont {
   box-shadow: 0px 0px 5px 2px rgba(93, 102, 111, 0.1);
+}
+
+.videoRow {
+  display: flex;
+  justify-content: center;
+}
+
+.videoTextCont {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent margin collapse */
+}
+
+.videoRow {
+  display: flex;
+  justify-content: center;
+  width: 900px; /* Or a suitable width */
+  margin: 0 auto; /* Optional: Center .videoRow within .portal_column2 */
 }
