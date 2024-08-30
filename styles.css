@@ -139,7 +139,7 @@ html {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-rows: 10px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 
 .navCol {
@@ -147,7 +147,7 @@ html {
   left: 60px;
   display: grid;
   align-items: center;
-  grid-template-rows: 8px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 8px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 
 #mainLogo {
@@ -739,4 +739,28 @@ tr:hover {
   justify-content: center;
   width: 900px; /* Or a suitable width */
   margin: 0 auto; /* Optional: Center .videoRow within .portal_column2 */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 30px; /* Increased spacing for better visual separation */
+}
+
+.registerButton {
+  background-color: #0072ce;
+  color: white;
+  padding: 12px 24px; /* Slightly increased padding for a larger button */
+  border: none;
+  border-radius: 25px; /* More rounded corners for a softer look */
+  cursor: pointer;
+  font-size: 18px; /* Slightly larger font size */
+  font-weight: bold; /* Add emphasis */
+  text-transform: uppercase; /* Make text uppercase for a call-to-action feel */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.registerButton:hover {
+  background-color: #0056a0;
 }
