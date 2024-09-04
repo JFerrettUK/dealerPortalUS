@@ -677,6 +677,14 @@ tr:hover {
   align-items: flex-start;
   justify-content: center; /* Center the videoDetails horizontally */
   margin-bottom: 20px;
+  display: flex; /* Use flexbox for easy layout */
+  margin-bottom: 20px; /* Add some spacing between items */
+  border: 1px solid #ccc; /* Add a subtle border */
+  padding: 15px; /* Add some padding inside the box */
+  border-radius: 5px; /* Slightly round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background: #d9e2e6;
+  max-width: 900px;
 }
 
 .videoDetails {
@@ -688,18 +696,6 @@ tr:hover {
   max-width: 600px;
 }
 
-/* General Styles for the video items */
-.videoItem {
-  display: flex; /* Use flexbox for easy layout */
-  margin-bottom: 20px; /* Add some spacing between items */
-  border: 1px solid #ccc; /* Add a subtle border */
-  padding: 15px; /* Add some padding inside the box */
-  border-radius: 5px; /* Slightly round the corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  background: #d9e2e6;
-  max-width: 900px;
-}
-
 /* Style for even video items (video on the right) */
 .videoItem:nth-child(even) {
   flex-direction: row-reverse; /* Reverse the order of content and video */
@@ -708,6 +704,7 @@ tr:hover {
 .videoCont {
   flex: 1; /* Allow the video container to grow and take up available space */
   margin: 0 15px; /* Add some margin around the video */
+  box-shadow: 0px 0px 5px 2px rgba(93, 102, 111, 0.1);
 }
 
 .videoDetails {
@@ -716,10 +713,6 @@ tr:hover {
 
 .videoText {
   margin-top: 0; /* Remove default margin on the heading */
-}
-
-.videoCont {
-  box-shadow: 0px 0px 5px 2px rgba(93, 102, 111, 0.1);
 }
 
 .videoRow {
